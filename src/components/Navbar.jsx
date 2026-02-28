@@ -1,10 +1,11 @@
 import React from "react";
 import { User, Route, House} from "lucide-react";
+import { Link } from "react-router-dom";
 
 const navPages = [
-    {href: "#Home", label: "Home", icon: House},
-    {href: "#Journey", label: "Journey", icon: Route},
-    {href: "#Profile", label: "User", icon: User},
+    {path: "/", icon: House},
+    {path: "/journey", icon: Route},
+    {path: "/profile", icon: User},
 ]
 
 export const Navbar = () => {
@@ -28,13 +29,13 @@ export const Navbar = () => {
                         {navPages.map((link, index) => {
                             const IconComponent = link.icon;
                             return (
-                            <a 
-                            href={link.href} 
+                            <Link 
+                            to={link.path} 
                             key={index}
                             className="px-4 py-2 text-text hover:text-title rounded-full hover:bg-background flex items-center justify-center"
                             >
                                 <IconComponent size={20} />
-                            </a>
+                            </Link>
                         )})}
                     </div>
                 </div>
