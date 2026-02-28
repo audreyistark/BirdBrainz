@@ -1,5 +1,7 @@
 export const Journey = () => {
     return (
-        <section></section>
+        <section> 
+            journey 
+        </section>
     );
 }

@@ -3,9 +3,11 @@
 @theme {
   --color-background: #ffffff;
 
-  --color-titles: 22577A;
-  --color-subtext: green;
-  --color-text: orange;
+  --color-title: #22577A;
+  --color-subtitle: #38A3A5;
+  --color-text: black;
+
+  --color-button: #C7F9CC;
 
   /*
   blue 1: 22577A
@@ -30,5 +32,13 @@
   .font-serif {
     font-family: "Playfair Display", serif;
     
+  }
+}
+
+@layer components {
+  .glass {
+    background-color: color-mix(in srgb, var(--color-button) 50%, transparent);
+    backdrop-filter: blur(16px);
+    border: 1px solid color-mix(in srgb, var(--color-button) 100%, transparent);
   }
 }
