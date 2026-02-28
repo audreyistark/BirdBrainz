@@ -23,32 +23,70 @@ export const Profile = () => {
                             </div>
                         </div>
                     </div>
+                       <table className="charts-css column">
+      <caption>Front End Developer Salary</caption>
+      <tbody>
+        <tr>
+          <td style={{ "--size": 0.4 }}>
+            <span className="data">$40K</span>
+          </td>
+        </tr>
+        <tr>
+          <td style={{ "--size": 0.6 }}>
+            <span className="data">$60K</span>
+          </td>
+        </tr>
+        <tr>
+          <td style={{ "--size": 0.75 }}>
+            <span className="data">$75K</span>
+          </td>
+        </tr>
+        <tr>
+          <td style={{ "--size": 0.9 }}>
+            <span className="data">$90K</span>
+          </td>
+        </tr>
+        <tr>
+          <td style={{ "--size": 1 }}>
+            <span className="data">$100K</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
                     <div className="tablecontainer">
-                        <table class="charts-css column">
-
-                            <caption> Front End Developer Salary </caption>
-
-                            <tbody>
-                                <tr>
-                                    <td> $40K </td>
-                                </tr>
-                                <tr>
-                                    <td> $60K </td>
-                                </tr>
-                                <tr>
-                                    <td> $75K </td>
-                                </tr>
-                                <tr>
-                                    <td> $90K </td>
-                                </tr>
-                                <tr>
-                                    <td> $100K </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                            <table className="charts-css column">
+      <caption>Front End Developer Salary</caption>
+      <tbody>
+        <tr>
+          <td style={{ "--size": 0.4 }}>
+            <span className="data">$40K</span>
+          </td>
+        </tr>
+        <tr>
+          <td style={{ "--size": 0.6 }}>
+            <span className="data">$60K</span>
+          </td>
+        </tr>
+        <tr>
+          <td style={{ "--size": 0.75 }}>
+            <span className="data">$75K</span>
+          </td>
+        </tr>
+        <tr>
+          <td style={{ "--size": 0.9 }}>
+            <span className="data">$90K</span>
+          </td>
+        </tr>
+        <tr>
+          <td style={{ "--size": 1 }}>
+            <span className="data">$100K</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+                        </div>
+                        </div>
                 </div>
-            </div>
         </section>
     );
 }
