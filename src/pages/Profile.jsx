@@ -1,10 +1,10 @@
 
 
-export const Home = () => {
+export const Profile = () => {
     return (
         <section className="relative min-h-screen flex items-center overflow-hidden">
             <div className="container mx-auto px-6 pb-20 relative z-10">
-                <div className="grid lg:grid-cols-2 gap-12 items-center">
+                <div className="grid lg:grid-cols-2 gap-10 items-center">
                     <div className="relative">
                         <div className="relative max-w-md mx-auto">
                             <div className="relative glass rounded-full p-5">
@@ -23,6 +23,14 @@ export const Home = () => {
                                     <br/>
                                 </h3>
                             </div>
+                        </div>
+                    </div>
+                    <div className="relative">
+                        <div className="relative max-w-md mx-auto">
+                            <h3 className="roboto-flex-body text-xl">
+                                Yo yo yo, I'm Steven the Seagull!
+                                <br/>
+                            </h3>
                         </div>
                     </div>
                 </div>
