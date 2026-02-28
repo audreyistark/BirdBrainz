@@ -2,18 +2,23 @@ import { Navbar } from "@/components/Navbar";
 import { Home } from "@/pages/Home";
 import { Journey } from "@/pages/Journey";
 import { Profile } from "@/pages/Profile";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="min-h-screen overflow-x-hidden">
-      <Navbar />
+    <Router>
+      <div className="min-h-screen overflow-x-hidden">
+        <Navbar />
 
-      <main>
-        <Home/>
-        <Profile/>
-        <Journey/>
-      </main>
-   </div>
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/journey" element={<Journey />} />
+            <Route path="/profile" element={<Profile />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
   );
 }
 
