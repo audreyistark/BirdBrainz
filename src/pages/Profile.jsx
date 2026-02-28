@@ -1,5 +1,3 @@
-
-
 export const Profile = () => {
     return (
         <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -25,13 +23,29 @@ export const Profile = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="relative">
-                        <div className="relative max-w-md mx-auto">
-                            <h3 className="roboto-flex-body text-xl">
-                                Yo yo yo, I'm Steven the Seagull!
-                                <br/>
-                            </h3>
-                        </div>
+                    <div className="tablecontainer">
+                        <table class="charts-css column">
+
+                            <caption> Front End Developer Salary </caption>
+
+                            <tbody>
+                                <tr>
+                                    <td> $40K </td>
+                                </tr>
+                                <tr>
+                                    <td> $60K </td>
+                                </tr>
+                                <tr>
+                                    <td> $75K </td>
+                                </tr>
+                                <tr>
+                                    <td> $90K </td>
+                                </tr>
+                                <tr>
+                                    <td> $100K </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
