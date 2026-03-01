@@ -117,11 +117,11 @@ export const Home = () => {
                                 <p className="text-sm text-text">Just completed a 23-mile bike trip! 🚴</p>
                                 <div className="grid grid-cols-2 gap-3">
                                     <div className="bg-white bg-opacity-50 rounded-lg p-3">
-                                        <p className="text-xl font-bold text-subtitle">856</p>
+                                        <p className="text-xl font-bold text-subtitle">142</p>
                                         <p className="text-xs text-text opacity-75">CO₂ Saved</p>
                                     </div>
                                     <div className="bg-white bg-opacity-50 rounded-lg p-3">
-                                        <p className="text-xl font-bold text-subtitle">142</p>
+                                        <p className="text-xl font-bold text-subtitle">+ 142</p>
                                         <p className="text-xs text-text opacity-75">Points</p>
                                     </div>
                                 </div>
@@ -146,7 +146,7 @@ export const Home = () => {
                                 <p className="text-sm text-text">Reached the Explorer badge! 🎉</p>
                                 <div className="grid grid-cols-2 gap-3">
                                     <div className="bg-white bg-opacity-50 rounded-lg p-3">
-                                        <p className="text-xl font-bold text-subtitle">2,000</p>
+                                        <p className="text-xl font-bold text-subtitle">300</p>
                                         <p className="text-xs text-text opacity-75">CO₂ Saved</p>
                                     </div>
                                     <div className="bg-white bg-opacity-50 rounded-lg p-3">
@@ -175,11 +175,11 @@ export const Home = () => {
                                 <p className="text-sm text-text">Using public transit all week! 🚌</p>
                                 <div className="grid grid-cols-2 gap-3">
                                     <div className="bg-white bg-opacity-50 rounded-lg p-3">
-                                        <p className="text-xl font-bold text-subtitle">1,247</p>
+                                        <p className="text-xl font-bold text-subtitle">203</p>
                                         <p className="text-xs text-text opacity-75">CO₂ Saved</p>
                                     </div>
                                     <div className="bg-white bg-opacity-50 rounded-lg p-3">
-                                        <p className="text-xl font-bold text-subtitle">203</p>
+                                        <p className="text-xl font-bold text-subtitle">+ 203</p>
                                         <p className="text-xs text-text opacity-75">Points</p>
                                     </div>
                                 </div>
@@ -201,14 +201,14 @@ export const Home = () => {
                                 <Bike className="w-5 h-5 text-red-500 flex-shrink-0"/>
                             </div>
                             <div className="space-y-3">
-                                <p className="text-sm text-text">Monthly goal: 500 miles - on track! 🎯</p>
+                                <p className="text-sm text-text">Monthly goal: 500 CO₂ Saved - on track! 🎯</p>
                                 <div className="grid grid-cols-2 gap-3">
                                     <div className="bg-white bg-opacity-50 rounded-lg p-3">
-                                        <p className="text-xl font-bold text-subtitle">3,562</p>
+                                        <p className="text-xl font-bold text-subtitle">456</p>
                                         <p className="text-xs text-text opacity-75">CO₂ Saved</p>
                                     </div>
                                     <div className="bg-white bg-opacity-50 rounded-lg p-3">
-                                        <p className="text-xl font-bold text-subtitle">456</p>
+                                        <p className="text-xl font-bold text-subtitle">+ 456</p>
                                         <p className="text-xs text-text opacity-75">Points</p>
                                     </div>
                                 </div>
