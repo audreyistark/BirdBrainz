@@ -9,7 +9,6 @@ export const Home = () => {
             <div className="absolute bottom-0 left-0 w-72 h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
 
             <div className="container mx-auto px-4 sm:px-6 relative z-10">
-                {/* Hero Section */}
                 <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center mb-16">
                     {/* Profile Card */}
                     <div className="flex justify-center">
