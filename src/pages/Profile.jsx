@@ -28,27 +28,27 @@ export const Profile = () => {
       <tbody>
         <tr>
           <td style={{ "--size": 0.4 }}>
-            <span className="data">$40K</span>
+            <span className="data">0.2kg</span>
           </td>
         </tr>
         <tr>
           <td style={{ "--size": 0.6 }}>
-            <span className="data">$60K</span>
+            <span className="data">6kg</span>
           </td>
         </tr>
         <tr>
-          <td style={{ "--size": 0.75 }}>
-            <span className="data">$75K</span>
+          <td style={{ "--size": 0.3 }}>
+            <span className="data">0.2kg</span>
           </td>
         </tr>
         <tr>
-          <td style={{ "--size": 0.9 }}>
-            <span className="data">$90K</span>
+          <td style={{ "--size": 0.1 }}>
+            <span className="data">0.1kg</span>
           </td>
         </tr>
         <tr>
           <td style={{ "--size": 1 }}>
-            <span className="data">$100K</span>
+            <span className="data">10kg</span>
           </td>
         </tr>
       </tbody>
@@ -59,27 +59,27 @@ export const Profile = () => {
       <tbody>
         <tr>
           <td style={{ "--size": 0.4 }}>
-            <span className="data">$40K</span>
+            <span className="data">car</span>
           </td>
         </tr>
         <tr>
           <td style={{ "--size": 0.6 }}>
-            <span className="data">$60K</span>
+            <span className="data">walking</span>
           </td>
         </tr>
         <tr>
           <td style={{ "--size": 0.75 }}>
-            <span className="data">$75K</span>
+            <span className="data">cycling</span>
           </td>
         </tr>
         <tr>
           <td style={{ "--size": 0.9 }}>
-            <span className="data">$90K</span>
+            <span className="data">train</span>
           </td>
         </tr>
         <tr>
           <td style={{ "--size": 1 }}>
-            <span className="data">$100K</span>
+            <span className="data">public transit</span>
           </td>
         </tr>
       </tbody>
