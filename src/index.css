@@ -8,7 +8,13 @@
   --color-subtitle: #38A3A5;
   --color-text: black;
 
+  --color-green-mid: #57CC99;
+  --color-green-light: #80ED99;
+  --color-green-dark: #C7F9CC;
+
   --color-button: #C7F9CC;
+
+  --color-green-bg: #98FB98;
 
   /*
   blue 1: 22577A
@@ -57,10 +63,19 @@
 
 @layer components {
   .glass {
-    background-color: color-mix(in srgb, var(--color-button) 50%, transparent);
+    background-color: color-mix(in srgb, var(--color-green-mid) 50%, transparent);
     backdrop-filter: blur(16px);
-    border: 1px solid color-mix(in srgb, var(--color-button) 100%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-green-mid) 100%, transparent);
   }
+<<<<<<< HEAD
+=======
+
+  .glass-2 {
+    background-color: color-mix(in srgb, var(--color-green-mid) 50%, transparent);
+    backdrop-filter: blur(16px);
+    border: 1px solid color-mix(in srgb, var(--color-green-mid) 100%, transparent);
+  }
+>>>>>>> 4b8ec30715f12bf7da8a059bec1e8a560be28d36
 }
 
 @layer tableDisplay {
