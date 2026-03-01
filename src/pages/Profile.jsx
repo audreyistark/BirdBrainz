@@ -25,7 +25,7 @@ export const Profile = () => {
       <caption>Front End Developer Salary</caption>
       <tbody>
         <tr>
-          <td style={{ "--size": 0.4 }}>
+          <td style={{ "--size": 0.4, "color": "orange" }}>
             <span className="data">$40K</span>
           </td>
         </tr>
@@ -56,7 +56,7 @@ export const Profile = () => {
       <caption>Front End Developer Salary</caption>
       <tbody>
         <tr>
-          <td style={{ "--size": 0.4 }}>
+          <td style={{ "--size": 0.4, "--color": "orange" }}>
             <span className="data">$40K</span>
           </td>
         </tr>
