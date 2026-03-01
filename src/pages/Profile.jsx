@@ -21,68 +21,55 @@ export const Profile = () => {
                             </div>
                         </div>
                     </div>
-                       <table className="charts-css column">
-      <caption>Front End Developer Salary</caption>
+                       <table className="charts-css column data-spacing-10 max-w-80">
+      <caption>Monthly Average Transport Usage</caption>
       <tbody>
         <tr>
-          <td style={{ "--size": 0.4, "color": "orange" }}>
-            <span className="data">$40K</span>
+          <td style={{ "--size": 0.4, "--color": "#8CB369" }}>
+            <span className="data">walking</span>
           </td>
         </tr>
         <tr>
-          <td style={{ "--size": 0.6 }}>
-            <span className="data">$60K</span>
+          <td style={{ "--size": 0.6, "--color": "#F4E285"}}>
+            <span className="data">cycling</span>
           </td>
         </tr>
         <tr>
-          <td style={{ "--size": 0.75 }}>
-            <span className="data">$75K</span>
+          <td style={{ "--size": 0.75, "--color": "#F4A259" }}>
+            <span className="data">transit</span>
           </td>
         </tr>
         <tr>
-          <td style={{ "--size": 0.9 }}>
-            <span className="data">$90K</span>
-          </td>
-        </tr>
-        <tr>
-          <td style={{ "--size": 1 }}>
-            <span className="data">$100K</span>
+          <td style={{ "--size": 1, "--color": "#BC4B51"}}>
+            <span className="data">car</span>
           </td>
         </tr>
       </tbody>
     </table>
-                    <div className="tablecontainer">
-                            <table className="charts-css column">
-      <caption>Front End Developer Salary</caption>
-      <tbody>
-        <tr>
-          <td style={{ "--size": 0.4, "--color": "orange" }}>
-            <span className="data">$40K</span>
-          </td>
-        </tr>
-        <tr>
-          <td style={{ "--size": 0.6 }}>
-            <span className="data">$60K</span>
-          </td>
-        </tr>
-        <tr>
-          <td style={{ "--size": 0.75 }}>
-            <span className="data">$75K</span>
-          </td>
-        </tr>
-        <tr>
-          <td style={{ "--size": 0.9 }}>
-            <span className="data">$90K</span>
-          </td>
-        </tr>
-        <tr>
-          <td style={{ "--size": 1 }}>
-            <span className="data">$100K</span>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-                        </div>
+<div className="tablecontainer">
+  <table className="charts-css area multiple reverse-labels max-w-80">
+    <caption>Monthly CO2 emissions (kg)</caption>
+    <tbody>
+      <tr>
+        <td style={{ "--start": 0, "--end": 0.2}}>
+          <span className="data">Jan</span>
+        </td>
+        <td style={{ "--start": 0.2, "--end": 0.4}}>
+          <span className="data">Feb</span>
+        </td>
+        <td style={{ "--start": 0.4, "--end": 0.6}}>
+          <span className="data">March</span>
+        </td>
+        <td style={{ "--start": 0.6, "--end": 0.8}}>
+          <span className="data">April</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+    <ul class="charts-css legend max-w-80 max-h-60">
+    <h3>Hi I'm Steven the Seagull! This is my travel profile bio :) </h3>
+  </ul>
  
     <table class="w-full text-sm text-left rtl:text-right text-body">
         <thead class="text-sm text-body bg-neutral-secondary-soft border-b rounded-base border-default">
