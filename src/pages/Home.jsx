@@ -63,7 +63,7 @@ export const Home = () => {
                             <div className="space-y-8">
                                 <div className="glass rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow duration-300">
                                     <div className="text-4xl font-bold text-title mb-2">1,038</div>
-                                    <p className="text-sm text-text opacity-75">Lbs of CO₂ Saved</p>
+                                    <p className="text-sm text-text opacity-75">Lbs of CO₂ saved this month</p>
                                     <div className="mt-3 h-1 w-12 bg-gradient-to-r from-green-mid to-green-light rounded-full"></div>
                                 </div>
 
@@ -83,6 +83,21 @@ export const Home = () => {
 
                     {/* Friends Feed Section */}
                     <div className="space-y-6">
+                        {/* Yearly Goal Progress */}
+                        <div className="glass rounded-2xl p-6 shadow-md">
+                            <div className="flex justify-between items-center mb-3">
+                                <h3 className="text-lg font-semibold text-title">2026 Yearly Goal</h3>
+                                <span className="text-sm font-bold text-subtitle">82%</span>
+                            </div>
+                            <div className="w-full bg-white bg-opacity-30 rounded-full h-4 overflow-hidden">
+                                <div className="bg-gradient-to-r from-green-mid to-subtitle h-full rounded-full" style={{width: '82%'}}></div>
+                            </div>
+                            <div className="flex justify-between items-center mt-3 text-xs text-text opacity-75">
+                                <span>8,512 / 10,400 Lbs CO₂</span>
+                                <span>288 days left</span>
+                            </div>
+                        </div>
+
                         <h2 className="text-3xl sm:text-4xl font-bold text-title mb-6">Friends Feed</h2>
                         
                         {/* Friend 1 */}
