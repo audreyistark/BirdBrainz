@@ -67,6 +67,12 @@
     backdrop-filter: blur(16px);
     border: 1px solid color-mix(in srgb, var(--color-green-mid) 100%, transparent);
   }
+
+  .glass-2 {
+    background-color: color-mix(in srgb, var(--color-green-mid) 50%, transparent);
+    backdrop-filter: blur(16px);
+    border: 1px solid color-mix(in srgb, var(--color-green-mid) 100%, transparent);
+  }
 }
 
 @layer tableDisplay {
